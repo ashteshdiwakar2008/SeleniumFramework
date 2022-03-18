@@ -8,7 +8,7 @@ public final class Validations {
 	private Validations() {}
 	
 	public static void verifyPageTitle(String expected, String actual) {
-		Assert.assertEquals(expected, actual, "Page Title mismatch");
+		Assert.assertEquals(expected, actual, "Page Title mismatch"); // comment
 	}
 	
 	public static void verifyElementDisplayed(boolean expected, boolean actual) {
